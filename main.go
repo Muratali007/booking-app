@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-const conferenceTickets = 50
+const conferenceTickets = 45
 
 var conferenceName = "Go conference"
 var remainingTickets uint = 50
@@ -84,7 +84,7 @@ func getUserInput() (string, string, string, uint) {
 	fmt.Println("Please enter your email address:")
 	fmt.Scan(&email)
 
-	fmt.Println("Please enter number of tickets:")
+	fmt.Println("Please enter number of tickets please:")
 	fmt.Scan(&userTickets)
 
 	return firstName, lastName, email, userTickets
